@@ -130,6 +130,11 @@ a:focus {
     font-weight: 400;
 }
 
+.top-bar .top-bar-text p:hover{
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
 .top-bar .top-bar-text p {
     margin: 0;
     color: #030f27;
@@ -2112,6 +2117,14 @@ a:focus {
     width: 25px;
 }
 
+.footer .footer-contact a {
+    color: #ffffff;
+}
+
+.footer .footer-contact a:hover{
+    color: #789bb3;
+}
+
 .footer .footer-social {
     position: relative;
     margin-top: 20px;
@@ -2213,7 +2226,18 @@ a:focus {
 }
 
 .footer .copyright .col-md-6:last-child p {
+    font-size: 12px;
     text-align: right;
+}
+
+.footer .copyright .col-md-6 label a {
+    font-size: 8px;
+    color: #292f36;
+}
+
+.footer .copyright .col-md-6 label a:hover {
+    font-size: 8px;
+    color: #292f36;
 }
 
 .footer .copyright p a {
